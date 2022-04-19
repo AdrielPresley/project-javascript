@@ -10,10 +10,9 @@
 
 Exemplo:
 
-``Input: 1, 2
-Output: Os números 1 e 2 não são iguais. Sua soma é 3, que é menor que 10 e menor que 20.``
+``Input: 1, 2``
 
-* Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
+``Output: Os números 1 e 2 não são iguais. Sua soma é 3, que é menor que 10 e menor que 20.``
 
 # Variáveis e Tipos
 
@@ -31,10 +30,12 @@ Output: Os números 1 e 2 não são iguais. Sua soma é 3, que é menor que 10 e
 
 Exemplo: 
 
-``Input -> [1, 3, 4, 6, 80, 33, 23, 90]
+``Input: [1, 3, 4, 6, 80, 33, 23, 90]``
 
-Output -> [1, 3, 0, 0, 0, 33, 23, 0]
+``Output: [1, 3, 0, 0, 0, 33, 23, 0]``
 
-Input -> []
+``Input: []``
 
-Output -> -1``
+``Output: -1``
+
+* Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.

@@ -42,7 +42,7 @@ Exemplo:
 
 * Este repositório contém a solução da atividade prática do Curso "Módulos", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
 
-## Atividade
+## Atividade 1 - Módulos
 
 * Esta atividade tem como objetivo que você veja no console do seu navegador como os módulos funcionam.
 
@@ -66,6 +66,12 @@ Exemplo:
 
 2) Faça a chamada de todas elas;
 
-* Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.
+* Utilizando a extensão ``"Live Server"``, abra o seu navegador e veja no console que as informações foram logadas corretamente.
+
+## Atividadde - Imports Dinâmicos
+
+* Este exercício serve apenas como um exemplo de como utilizar módulos por demanda. Na nossa página HTML, ao clicar no botão, o fundo da página fica vermelho.
+
+* Não se esqueça de utilizar a extensão ``"Live Server"`` ao realizar a atividade!
 
 ## Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.

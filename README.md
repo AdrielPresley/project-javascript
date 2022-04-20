@@ -68,7 +68,7 @@ Exemplo:
 
 * Utilizando a extensão ``"Live Server"``, abra o seu navegador e veja no console que as informações foram logadas corretamente.
 
-## Atividadde - Imports Dinâmicos
+## Atividadde 2 - Módulos "Imports Dinâmicos"
 
 * Este exercício serve apenas como um exemplo de como utilizar módulos por demanda. Na nossa página HTML, ao clicar no botão, o fundo da página fica vermelho.
 

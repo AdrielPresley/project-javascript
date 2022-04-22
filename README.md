@@ -5,8 +5,11 @@
 ## Atividade 1: Sintaxe e Operadores
 
 1) Crie uma função que recebe dois números como parâmetros.
+
 2) Confira se os números são iguais.
+
 3) Confira se a soma dos números é maior que 10 ou menor que 20.
+
 4) Retorne uma string dizendo "Os números ``num1`` e ``num2`` não/são iguais. Sua soma é ``soma``, que é ``maior/menor`` que 10 e ``maior/menor`` que 20".
 
 Exemplo:
@@ -82,7 +85,9 @@ Exemplo:
 ## Atividade 1: Funções - "Alunos Aprovados"
 
 1) Crie uma função que recebe o array ``alunos`` e um número que irá representar a média final;
+
 2) Percorra o array e popule um novo array auxiliar apenas com os ``alunos cujas notas são maiores`` ou ``iguais`` à média final;
+
 3) Utilize a técnica ``"object destructuring"`` para manipular as propriedades desejadas de cada aluno.
 
 ## Atividade 2: Funções - "This"
@@ -103,8 +108,11 @@ function calculaIdade(anos) {
 ## Atividade 1: Maps - "Coleções"
 
 * Crie uma função que retorna o nome dos membros de um Map que tem o papel 'ADMIN' no sistema.
+
 1) Crie uma função ``getAdmins`` que recebe um ``Map``;
+
 2) Crie um Map e popule-o com nomes de usuários e seus papeis no sistema. ``(Ex: 'Luiz' => 'Admin');``
+
 3) Dentro de ``getAdmins``, utilize o loop ``for...of`` para retornar uma lista com os nomes dos usu;arios que são administradores.
 
 ## Atividade 2: Sets - "Coleções"
@@ -115,17 +123,50 @@ function calculaIdade(anos) {
 
 * Este repositório contém a solução da atividade prática do Curso "Tratamento de Erros", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
 
-## Atividade: Validação de erros por tipo
+## Atividade 1: Validação de erros por tipo - "Tratamento de Erros"
 
 * O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como parâmetro na função. Caso contrário, um erro será lançado.
 
 1) Crie uma função que recebe um array e um número
+
 2) Realize as seguintes validações
+
 2.1) Se os parâmetros não forem enviados, lance um erro do tipo ``ReferenceError``
+
 2.2) Se o array não for do tipo 'object', lance um erro do tipo ``TypeError``
+
 2.3) Se o número não for do tipo 'number', lance um erro do tipo ``TypeError``
+
 2.4) Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo ``RangeError``
+
 3) Utilize a declaração ``try...catch``
+
 4) Filtre as chamadas de catch por cada tipo de erro utilizando o operador ``instanceof``
+
+# Orientação a Objetos
+
+* Este repositório contém a solução da atividade prática do Curso "Orientação a Objetos", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
+
+## Atividade 1: Conta Bancária - "Orientação a Objetos - POO"
+
+* Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e operações disponíveis em cada uma.
+
+1) Crie a classe ``ContaBancaria``, que possui os parâmetros ``agencia``, ``numero``, ``tipo`` e ``saldo``;
+
+1.1) Dentro de ``ContaBancaria``, construa o getter e o setter de ``saldo``;
+
+1.2) Dentro de ``ContaBancaria``, crie os métodos ``sacar`` e ``depositar``;
+
+2) Crie uma classe-filha chamada ``ContaCorrente`` que herda todos esses parâmetros e ainda possua o parâmetro ``cartaoCredito``;
+
+2.1) Ainda em ``ContaCorrente``, construa o getter e o setter de ``cartaoCredito``;
+
+2.2) Ainda em ``ContaCorrente``, faça com que o ``tipo seja 'conta corrente'`` por padrão;
+
+3) Crie uma classe-filha chamada ``ContaPoupanca`` que herda todos os parâmetros de ``ContaBancaria``;
+
+3.1) Crie uma classe-filha chamada ``ContaUniversitaria`` que herda todos os parâmetros de ``ContaBancaria``;
+
+4) Faça com que o método saque de ``ContaUniversitaria`` apenas seja capaz de sacar valores *menores que 500 reais*.
 
 ## Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.

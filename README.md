@@ -3,10 +3,11 @@
 * Este repositório contém a solução da atividade prática do Curso "Sintaxe e Operadores", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
 
 ## Atividade 1: Sintaxe e Operadores
-* Crie uma função que recebe dois números como parâmetros.
-* Confira se os números são iguais.
-* Confira se a soma dos números é maior que 10 ou menor que 20.
-* Retorne uma string dizendo "Os números ``num1`` e ``num2`` não/são iguais. Sua soma é ``soma``, que é ``maior/menor`` que 10 e ``maior/menor`` que 20".
+
+1) Crie uma função que recebe dois números como parâmetros.
+2) Confira se os números são iguais.
+3) Confira se a soma dos números é maior que 10 ou menor que 20.
+4) Retorne uma string dizendo "Os números ``num1`` e ``num2`` não/são iguais. Sua soma é ``soma``, que é ``maior/menor`` que 10 e ``maior/menor`` que 20".
 
 Exemplo:
 
@@ -20,9 +21,9 @@ Exemplo:
 
 ## Atividade 1: Variáveis e Tipos
 
-* Verifique, de duas maneiras diferentes entre si, se uma String é um palíndromo.
+1) Verifique, de duas maneiras diferentes entre si, se uma String é um palíndromo.
 
-* *Palíndromo: frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)*
+``Nota: Palíndromo = frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)``
 
 ## Atividade 2: Variáveis e Tipos
 
@@ -46,25 +47,25 @@ Exemplo:
 
 * Esta atividade tem como objetivo que você veja no console do seu navegador como os módulos funcionam.
 
-* Instale a extensão "Live Server" no seu VSCode;
+1) Instale a extensão "Live Server" no seu VSCode;
 
-* Crie um arquivo com uma estrutura HTML padrão;
+2) Crie um arquivo com uma estrutura HTML padrão;
 
-* Crie dois arquivos ``.js`` ou ``.mjs``, um chamado funcoes e outro chamado ``main``;
+3) Crie dois arquivos ``.js`` ou ``.mjs``, um chamado funcoes e outro chamado ``main``;
 
-* No arquivo ``funcoes``:
+4) No arquivo ``funcoes``:
 
-1) Crie uma função chamada ``mostraIdade``, que recebe ``nome`` e ``idade`` e retorna a string: ``A idade de ${nome} é ${idade}``;
+4.1) Crie uma função chamada ``mostraIdade``, que recebe ``nome`` e ``idade`` e retorna a string: ``A idade de ${nome} é ${idade}``;
 
-2) Siga o mesmo padrão para outras funções como ``mostraCidade`` e ``mostraHobby``;
+4.2) Siga o mesmo padrão para outras funções como ``mostraCidade`` e ``mostraHobby``;
 
-3) Exporte estas funções.
+4.3) Exporte estas funções.
 
-* No arquivo ``main``:
+5) No arquivo ``main``:
 
-1) Importe as funções do arquivo funcoes;
+5.1) Importe as funções do arquivo funcoes;
 
-2) Faça a chamada de todas elas;
+5.2) Faça a chamada de todas elas;
 
 * Utilizando a extensão ``"Live Server"``, abra o seu navegador e veja no console que as informações foram logadas corretamente.
 
@@ -80,15 +81,15 @@ Exemplo:
 
 ## Atividade 1: Funções - "Alunos Aprovados"
 
-* Crie uma função que recebe o array ``alunos`` e um número que irá representar a média final;
-* Percorra o array e popule um novo array auxiliar apenas com os ``alunos cujas notas são maiores`` ou ``iguais`` à média final;
-* Utilize a técnica ``"object destructuring"`` para manipular as propriedades desejadas de cada aluno.
+1) Crie uma função que recebe o array ``alunos`` e um número que irá representar a média final;
+2) Percorra o array e popule um novo array auxiliar apenas com os ``alunos cujas notas são maiores`` ou ``iguais`` à média final;
+3) Utilize a técnica ``"object destructuring"`` para manipular as propriedades desejadas de cada aluno.
 
 ## Atividade 2: Funções - "This"
 
-* Dada a função ``calculaIdade``, utilize os métodos call e apply para modificar o valor de ``this``. 
+1) Dada a função ``calculaIdade``, utilize os métodos call e apply para modificar o valor de ``this``. 
 
-* Crie seus próprios objetos para esta atividade!
+2) Crie seus próprios objetos para esta atividade!
 
 ```
 function calculaIdade(anos) {
@@ -109,5 +110,22 @@ function calculaIdade(anos) {
 ## Atividade 2: Sets - "Coleções"
 
 * Dado o array ``[30, 30, 40, 5, 223, 2049, 3034, 5]``, retorne outro array apenas com valores únicos.
+
+# Tratamento de Erros
+
+* Este repositório contém a solução da atividade prática do Curso "Tratamento de Erros", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
+
+## Atividade: Validação de erros por tipo
+
+* O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como parâmetro na função. Caso contrário, um erro será lançado.
+
+1) Crie uma função que recebe um array e um número
+2) Realize as seguintes validações
+2.1) Se os parâmetros não forem enviados, lance um erro do tipo ``ReferenceError``
+2.2) Se o array não for do tipo 'object', lance um erro do tipo ``TypeError``
+2.3) Se o número não for do tipo 'number', lance um erro do tipo ``TypeError``
+2.4) Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo ``RangeError``
+3) Utilize a declaração ``try...catch``
+4) Filtre as chamadas de catch por cada tipo de erro utilizando o operador ``instanceof``
 
 ## Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.

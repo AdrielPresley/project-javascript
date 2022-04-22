@@ -95,5 +95,19 @@ function calculaIdade(anos) {
 	return `Daqui a ${anos} anos, ${this.nome} terá ${this.idade + anos} anos de idade.`;
 }
 ```
+# Coleções Chaveadas
+
+* Este repositório contém a solução da atividade prática do Curso "Coleções", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
+
+## Atividade 1: Maps - "Coleções"
+
+* Crie uma função que retorna o nome dos membros de um Map que tem o papel 'ADMIN' no sistema.
+1) Crie uma função ``getAdmins`` que recebe um ``Map``;
+2) Crie um Map e popule-o com nomes de usuários e seus papeis no sistema. ``(Ex: 'Luiz' => 'Admin');``
+3) Dentro de ``getAdmins``, utilize o loop ``for...of`` para retornar uma lista com os nomes dos usu;arios que são administradores.
+
+## Atividade 2: Sets - "Coleções"
+
+* Dado o array ``[30, 30, 40, 5, 223, 2049, 3034, 5]``, retorne outro array apenas com valores únicos.
 
 ## Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.

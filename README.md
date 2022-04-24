@@ -169,4 +169,15 @@ function calculaIdade(anos) {
 
 4) Faça com que o método saque de ``ContaUniversitaria`` apenas seja capaz de sacar valores *menores que 500 reais*.
 
+# JavaScript Assíncrono
+
+* Este repositório contém a solução da atividade prática do Curso "JavaScript Assíncrono", que faz parte do Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
+
+## Atividade 1: API "catAPI" - JavaScript Assíncrono
+
+* Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
+
+1) Utilize a API ``https://thatcopy.pw/catapi/rest`` para fazer as chamadas com o método ``fetch()``;
+2) Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
+
 ## Projeto desenvolvido durante o Bootcamp Philips Fullstack Developer | You Are You - Digital Innovation One.
